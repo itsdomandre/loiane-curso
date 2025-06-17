@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Chat1 {
+public class Exerc1 {
 
     public static int countAboveThreshold(List<Integer> listNumber, int threshold) {
         int count = 0;

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Chat2 {
+public class Exerc2 {
     public static double differenceBetweenClasses(List<Double> classA, List<Double> classB) {
         double sumClassA = 0.0;
         double sumClassB = 0.0;
