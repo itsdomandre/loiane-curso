@@ -10,6 +10,11 @@ public class Exerc5 {
         double media = 0;
         for (int i = 0; i < grades.size(); i++) {
             media += grades.get(i);
+            if (grades.get(i) >= 7) {
+                System.out.println("Aprovado");
+            }else {
+                System.out.println("Reprovado");
+            }
         }
         media = media / grades.size();
         for (int i = 0; i < grades.size(); i++) {
